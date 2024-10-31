@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10rem;
+    }
+
+    .wrapper {
+        display: grid;
+        place-content: center;
+    }
+
+    #toggle-mode {
+        position: absolute;
+        right: 3.2rem;
+        top: 3.2rem;
+    }
+
+    #controls button {
+        font-size: 6rem;
+    }
+
+    #sounds button {
+        padding: 4rem 2rem 4rem 2rem;
+    }
+}
